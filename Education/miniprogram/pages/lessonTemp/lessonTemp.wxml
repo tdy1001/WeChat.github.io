@@ -1,0 +1,44 @@
+<view class = "wholeBody">
+    <scroll-view scroll-y="true" class = "scrollBar">
+        <view class = "headRowLayout">
+          <image src='cloud://test-ac2950.7465-test-ac2950/schedule/cover.png' mode = "widthFix" style='width: 45%' class = "coursePicture"></image>
+          <view class = "courseShow">
+              <text class  = "courseName">你们看我吊吗</text>
+              <text class = "courseAcademy">Alive学院</text>
+          </view>
+        </view>
+        <view class = "rowIcon">
+          <view class='icon-item'>
+            <image src='cloud://test-ac2950.7465-test-ac2950/schedule/evaluate.png' mode = 'widthFix' style='width:100%'></image>
+            <view>评价</view>
+          </view>
+          <view class='icon-item'>
+            <image src='cloud://test-ac2950.7465-test-ac2950/schedule/share.png' mode = 'widthFix' style='width:100%'></image>
+            <view>讨论</view>
+          </view>
+          <view class='icon-item'>
+            <image src='cloud://test-ac2950.7465-test-ac2950/schedule/share.png' mode = 'widthFix' style='width:100%'></image>
+            <view>分享</view>
+          </view>
+        </view>
+        <view class = "bottomPage">
+          <text style='padding-left:10px;'>Part 0 ● 小程序开发</text>
+          <text class = "courseType">小程序开发\n已学习74%</text>
+          <text class='courseLineIcon'></text>
+          <text class = "courseContent">◆ 认识微信小程序</text>
+          <text class = "courseContent">◆ 页面结构构建―――认识WXML</text>
+          <text class = "courseContent">◆ 页面样式定义―――认识WXSS</text>
+          <text class = "courseContent">◆ 基础组件使用方法</text>
+          <text class = "courseContent">◆ 小程序API</text>
+          <text class = "courseContent">◆ 云服务使用</text>
+          <text class = "courseContent">◆ 开发能力</text>
+
+        </view>
+    <view class = "bottomLabel">
+      <view>
+        上次学习: 开放能力 2/3
+      </view>
+      <button class = "goOnButton" size='mini'>继续</button>
+    </view>
+    </scroll-view>
+</view>

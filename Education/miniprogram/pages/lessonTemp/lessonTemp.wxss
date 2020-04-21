@@ -1,0 +1,122 @@
+.wholeBody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #a7b7b7;
+}
+
+.coursePicture {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.scrollBar {
+  margin: 0 2;
+}
+
+.headRowLayout {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.courseShow {
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.courseName {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: normal !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.courseAcademy {
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(0, 60, 255);
+}
+
+.rowIcon {
+  box-sizing: border-box;
+  padding: 0 40px 0;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.icon-item {
+  width: 15%;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+}
+
+.bottomPage {
+  width: 100%;
+  padding: 10px 0 10vh;
+  box-sizing: border-box;
+  margin: 10px 0 0;
+  border-top: 10px solid #a7b7b71f;
+  border-left: 5px solid #a7b7b71f;
+  border-right: 6px solid #a7b7b71f;
+  display: flex;
+  flex-direction: column;
+}
+.courseHead{
+  width: 100%;
+}
+.courseType{
+  line-height: 2.5;
+  font-size: 10px;
+  color: #a7b7b7;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  width:100%;
+}
+.courseLineIcon{
+  width: 100%;
+  border-bottom: 1px solid #a7b7b7;
+}
+.courseContent{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.bottomLabel {
+  font-size: 12px;
+  color: #a7b7b7;
+  height: 10vh;
+  width: 100%;
+  font-weight: 500;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  border-top: 1px solid #a7b7b76e;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+.goOnButton{
+  margin-right:20px;
+  background-color: #33c9ff;
+  color: #fff;
+  height: 6vh !important;
+  width: 15vh !important;
+  align-items: center;
+}
+

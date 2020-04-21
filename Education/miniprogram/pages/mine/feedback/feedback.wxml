@@ -1,0 +1,4 @@
+<!--反馈界面-->
+
+<input class='feedbackInput' placeholder='来吐槽一句吧'></input><!--描述bug-->
+<button class='inputSubmit' bindtap='inputSubmit'>提交</button><!--提交bug-->

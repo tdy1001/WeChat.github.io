@@ -1,0 +1,30 @@
+<!--发现页面-->
+
+<template name='lesson'>
+  <view class='lesson' bindtap='lessonShow'>
+    <!--<image class='lessonImage' mode='widthFix'></image>课程图片-->
+    <view>{{item.name}}</view><!--课程名-->
+    <view>{{item.price}}</view><!--课程价格-->
+  </view>
+</template>
+<!--课程模板-->
+
+<view class='search' style='display: flex'>
+  <input class='searchInput' placeholder='此处搜索课程、老师名'></input>
+  <button class='searchButton' size='mini' bindtap='searchButtonShow' >搜索
+    <!--<image class='searchButtonIcon' mode='widthFix'></image>搜索图标-->
+  </button>
+</view>
+<!--输入框与搜索按钮-->
+
+<button class='classify' size='mini' bindtap='classifyShow'>筛选器
+  <!--<image class='classifyImage' mode='widthFix'></image>筛选器图标-->
+</button>
+<!--筛选器悬浮于搜索框右下-->
+
+<view class='lessons' style='display: flex'>
+  <block wx:for='{{lesson}}'>
+    <template is='lesson' data='{{item}}' />
+  </block>
+</view>
+<!--课程推送部分-->
